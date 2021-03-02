@@ -97,7 +97,7 @@ export default {
     deleteAll(){
       this.$q.dialog({
         title: 'Confirm',
-        message: 'Are you sure that you want to permanently delete this items?',
+        message: 'Are you sure that you want to permanently delete these items?',
         cancel: true,
         persistent: true
       }).onOk(() => {
